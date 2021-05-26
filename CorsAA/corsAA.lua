@@ -64,3 +64,8 @@ client.set_event_callback('paint', function()
         renderer_text(center_x, center_y + 40, 255, 255, 255, 220, "c", 0, "Force on shot")
     end
 end)
+
+label = ui.new.label,
+LabelEnd = {
+		Element = cache.label(C.Config.Panel, C.Config.Side, 'CorsAA')
+	}
